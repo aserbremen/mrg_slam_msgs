@@ -1,0 +1,11 @@
+
+
+---
+
+# All global IDs (GIDs) that are unique for the the rover
+
+string[] keyframe_uuid_strs
+string[] readable_keyframes
+
+string[] edge_uuid_strs
+string[] readable_edges
