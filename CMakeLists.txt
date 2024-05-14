@@ -30,14 +30,14 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/DumpGraph.srv"
   "srv/GetGraphEstimate.srv"
-  "srv/GetGraphGids.srv"
+  "srv/GetGraphGids.srv" # TODO: remove
   "srv/GetMap.srv"
   "srv/PublishGraph.srv"
   "srv/RequestGraphs.srv"
+  "srv/SaveGids.srv" # TODO: remove
+  "srv/SaveGraph.srv"
   "srv/SaveMap.srv"
-  "srv/SaveGids.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

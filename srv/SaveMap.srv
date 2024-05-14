@@ -1,6 +1,6 @@
 bool utm
 float32 resolution
 int32 count_threshold
-string destination
+string file_path # path to the file where the map will be saved, usual file extension is .pcd
 ---
 bool success
