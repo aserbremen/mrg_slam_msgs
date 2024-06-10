@@ -33,6 +33,7 @@ set(srv_files
   "srv/GetGraphEstimate.srv"
   "srv/GetGraphGids.srv" # TODO: remove
   "srv/GetMap.srv"
+  "srv/LoadGraph.srv"
   "srv/PublishGraph.srv"
   "srv/RequestGraphs.srv"
   "srv/SaveGids.srv" # TODO: remove
