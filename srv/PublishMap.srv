@@ -1,0 +1,13 @@
+# Resolution of the voxel grid filter in meters
+# If not set the map will be published with the resolution of the graph slam
+# For negative values the full map will be published
+float64 resolution
+# Count threshold for the voxel grid filter, all cells with less points will be removed
+int64 count_threshold -1
+# Frame id of the published point cloud
+# If empty the map will be published in the map frame of the graph slam
+string frame_id
+
+---
+
+bool success
