@@ -30,7 +30,7 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/AddStaticMap.srv"
+  "srv/AddStaticKeyFrames.srv"
   "srv/GetGraphEstimate.srv"
   "srv/GetGraphGids.srv"
   "srv/GetMap.srv"
@@ -40,6 +40,7 @@ set(srv_files
   "srv/SaveGids.srv" # TODO: remove
   "srv/SaveGraph.srv"
   "srv/SaveMap.srv"
+  "srv/PublishMap.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
