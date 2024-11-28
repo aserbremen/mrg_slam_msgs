@@ -2,6 +2,7 @@
 
 # unique boost uuid as string
 string uuid_str 
+string slam_uuid_str
 string robot_name
 int32 odom_counter 
 float64 accum_distance
