@@ -32,7 +32,7 @@ set(msg_files
 set(srv_files
   "srv/AddStaticKeyFrames.srv"
   "srv/GetGraphEstimate.srv"
-  "srv/GetGraphGids.srv"
+  "srv/GetGraphUuids.srv"
   "srv/GetMap.srv"
   "srv/LoadGraph.srv"
   "srv/PublishGraph.srv"

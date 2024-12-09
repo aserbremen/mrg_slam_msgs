@@ -2,7 +2,7 @@
 
 ---
 
-# All global IDs (GIDs) that are unique for the the rover
+# All uuids that are part of the SLAM graph
 
 string[] keyframe_uuid_strs
 string[] readable_keyframes
