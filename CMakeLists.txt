@@ -41,6 +41,7 @@ set(srv_files
   "srv/SaveGraph.srv"
   "srv/SaveMap.srv"
   "srv/PublishMap.srv"
+  "srv/RemoveEdge.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
