@@ -1,13 +1,14 @@
 # Resolution of the voxel grid filter in meters
-# If not set the map will be published with the resolution of the graph slam
+# If not set the map will be published with the resolution of the config
 # For negative values the full map will be published
-float64 resolution
+float64 resolution 0.0
 
-# Count threshold for the voxel grid filter, all cells with less points will be removed
-int64 count_threshold -1
+# Minimum number of points for the voxel grid filter, all cells with less points will be removed. 
+# If not set the parameter from the config is used.
+int64 min_points_per_voxel -1
 
 # Frame id of the published point cloud
-# If empty the map will be published in the map frame of the graph slam
+# If empty the map will be published in the map frame of the config
 string frame_id
 
 # Whether to skip the point cloud associated with the very first keyframe.
